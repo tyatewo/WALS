@@ -1,0 +1,96 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  width: 100%; /* 横幅いっぱい */
+  height: 70px; /* 高さ120px */
+  background-color: #EC715F; /* 背景色 */
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+}
+
+.header-left {
+  width: 612px;
+  height: 70px; /* 高さ70px */
+  background-color: hotpink; /* 背景色hotpink */
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: none;
+  width: 100%;
+  line-height: 50px;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  background-color: rgba(0,0,0,.9);
+}
+
+.header-right {
+  width: 612px;
+  height: 70px; /* 高さ50px */
+  background-color: pink; /* 背景色pink */
+}
+
+
+
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 650px; /* 高さ300px */
+  background-color: orange; /* 背景色orange */
+}
+
+.main-visual-title {
+  width: 1024px;
+}
+
+
+
+
+.main {
+  width: 100%; /* 横幅いっぱい */
+  height: 3200px; /* 高さ1400px（多めに設定） */
+  background-color: green; /* 背景色green */
+}
+
+.portfolio {
+  width: 920px;
+  height: 800px;
+}
+
+.feature {
+  width: 980px;
+  height: 800px;
+}
+
+.profile {
+  width: 1024px;
+  height: 800px;
+}
+
+.contact {
+  width: 800px;
+  height: 800px;
+}
+
+
+
+
+.footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 60px; /* 高さ120px */
+  background-color: #EC715F; /* 背景色 */
+}
